@@ -1,5 +1,50 @@
 body {
-  font-family: Gill Sans, sans-serif;
-  background-color: salmon;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 16px;
+  color: #222;
+  background: #f5f9fc;
+}
+
+header {
   text-align: center;
+  padding: 24px 0;
+}
+
+.subtitle {
+  color: #555;
+  margin-top: 4px;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.animal-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.animal-list li {
+  background: white;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.animal-list a {
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 24px 0;
+  color: #666;
 }

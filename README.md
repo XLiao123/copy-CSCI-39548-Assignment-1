@@ -1,3 +1,22 @@
+# Johnny's Zoo
+
+Team: (Add your group member names and GitHub usernames here)
+
+GitHub Pages: (Add your deployed site URL here)
+
+## Project pages
+- index.html (Home)
+- polar-bear.html
+- tiger.html
+- giraffe.html
+- penguin.html
+
+## Notes
+- Follow the feature-branch workflow: create a new branch for each animal page, commit frequently with descriptive messages, and open a pull request before merging into main.
+- Ensure the project document (PDF) is submitted on Brightspace along with the repository and site link.
+
+----------
+
 # zoo-starter-code
 
 This repository is the starter code for Assignment 1 - Zoo.
