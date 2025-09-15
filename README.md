@@ -5,7 +5,8 @@ Team: Shangli Chen (ShangliChen)
 GitHub Pages:
 
 ## Project pages
-- index.html (Home)
+- index.html (Home)-
+- Shangli'sZoon.html
 - polar-bear.html
 - tiger.html
 - giraffe.html

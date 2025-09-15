@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Shangli's Zoo</title>
+    <title>Shangli and Xinjian's Zoo</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <style>
       body {
@@ -44,53 +44,37 @@
         margin-bottom: 24px;
         letter-spacing: 1px;
       }
-      .animal-list {
-        margin-top: 24px;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 24px;
+      .zoo-list {
+        margin-top: 32px;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
         padding: 0;
         list-style: none;
       }
-      .animal-list li {
+      .zoo-list li {
         background: linear-gradient(120deg, #f9e3ff 0%, #e3f0ff 100%);
         border-radius: 12px;
         box-shadow: 0 2px 12px rgba(30, 64, 175, 0.10);
-        padding: 32px 0;
+        padding: 32px 48px;
         transition: box-shadow 0.2s, transform 0.2s;
         text-align: center;
       }
-      .animal-list li:hover {
+      .zoo-list li:hover {
         box-shadow: 0 8px 24px rgba(30, 64, 175, 0.18);
         transform: translateY(-4px) scale(1.03);
       }
-      .animal-list a {
+      .zoo-list a {
         color: #1a73e8;
-        font-size: 1.3em;
+        font-size: 1.4em;
         font-weight: bold;
         text-decoration: none;
         letter-spacing: 0.5px;
         transition: color 0.2s;
       }
-      .animal-list a:hover {
+      .zoo-list a:hover {
         color: #d72660;
         text-decoration: underline;
-      }
-      .back-link {
-        display: inline-block;
-        margin-top: 32px;
-        color: #555;
-        text-decoration: none;
-        font-size: 1em;
-        border-radius: 4px;
-        padding: 8px 16px;
-        background: linear-gradient(90deg, #e3f0ff 0%, #f9e3ff 100%);
-        box-shadow: 0 1px 4px rgba(30,64,175,0.10);
-        transition: background 0.2s, color 0.2s;
-      }
-      .back-link:hover {
-        background: #d72660;
-        color: #fff;
       }
       footer {
         background: #f9e3ff;
@@ -102,19 +86,16 @@
   </head>
   <body>
     <header>
-      <h1>Welcome to Shangli's Zoo</h1>
-      <p class="subtitle">Explore the animals — click any animal to view its page.</p>
+      <h1>Welcome to Shangli and Xinjian's Zoo</h1>
+      <p class="subtitle">Explore the animals — choose either one of the zoos below</p>
     </header>
 
     <main>
-      <h2>Animals</h2>
-      <ul class="animal-list">
-        <li><a href="polar-bear.html">Polar Bear</a></li>
-        <li><a href="tiger.html">Tiger</a></li>
-        <li><a href="giraffe.html">Giraffe</a></li>
-        <li><a href="penguin.html">Penguin</a></li>
+      <h2>Choose a Zoo</h2>
+      <ul class="zoo-list">
+        <li><a href="Shangli'sZoo.html">Shangli's Zoo</a></li>
+        <li><a href="Xinjian'sZoo.html">Xinjian's Zoo</a></li>
       </ul>
-      <a class="back-link" href="index.html">&larr; Back to Main Page</a>
     </main>
 
     <footer>
