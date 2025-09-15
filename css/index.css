@@ -43,6 +43,42 @@ main {
   font-weight: bold;
 }
 
+.zoo-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.zoo-list li {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(30, 64, 175, 0.08);
+  padding: 24px 40px;
+  transition: box-shadow 0.2s;
+  text-align: center;
+}
+
+.zoo-list li:hover {
+  box-shadow: 0 4px 16px rgba(30, 64, 175, 0.16);
+}
+
+.zoo-list a {
+  color: #1a73e8;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  transition: color 0.2s;
+}
+
+.zoo-list a:hover {
+  color: #0b47a1;
+  text-decoration: underline;
+}
+
 footer {
   text-align: center;
   padding: 24px 0;
