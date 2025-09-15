@@ -6,7 +6,7 @@ GitHub Pages:
 
 ## Project pages
 - index.html (Home)-
-- Shangli'sZoon.html
+- Shangli'sZoo.html
 - polar-bear.html
 - tiger.html
 - giraffe.html
